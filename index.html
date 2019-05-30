@@ -3,15 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<meta name="viewport" content="width=device-width, initial-scale=0.80, maximium-scale=0.80, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=0.80,  maximum-scale=0.80, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<title>Just Do It - Free To Do List</title>
 </head>
 <body>
-	
-	
-	<section>
-	<div class ="container">
+
+	<!--<header>
+		<div>
 		<h1>Just Do It</h1>
 
 		<nav>
@@ -22,26 +21,31 @@
 				<li><a href="terms.html">Terms</a></li>
 			</ul>
 		</nav>
-
-	<h1>Free To Do List Web App</h1>
-	<p>Get your everyday tasks done quickly here.</p>
-
-	<form>
-		<div>
-			<label>Enter your task</label><br>
-			<input type="task" placeholder ="Task name">
 		</div>
-		<button class="btn1">Ok</button>
-	</form>
+	</header>-->
+	
+	
+	<div id="myDIV" class="header">
+		<h2>My To Do List</h2>
+		<input type="text" id="myInput" placeholder="Title...">
+		<span onclick="newElement()" class="addBtn">Add</span>
 	</div>
-	</section>
+
+	<ul id="myUL">
+		<li>Hit the gym</li>
+		<li class="checked">Pay bills</li>
+		<li>Meet George</li>
+		<li>Buy eggs</li>
+		<li>Read a book</li>
+		<li>Organize office</li>	
+	</ul>
 	
 
-	<footer>
+	<!--<footer>
 		<p>2019 &copy; All rights reserved</p>
-	</footer>
+	</footer>-->
 
-
+<script src="main.js"></script>
 
 </body>
 </html>
